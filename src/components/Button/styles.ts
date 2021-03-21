@@ -5,7 +5,7 @@ export const Container = styled(RectButton)`
   position: relative;
   width: 100%;
   height: 60px;
-  background: #ff9000;
+  background: #ffcbed;
   border-radius: 10px;
   margin-top: 8px;
   flex-direction: row;
@@ -15,6 +15,6 @@ export const Container = styled(RectButton)`
 
 export const ButtonText = styled.Text`
   font-family: 'RobotoSlab-Medium';
-  color: #312e38;
+  color: #71064c;
   font-size: 18px;
 `;

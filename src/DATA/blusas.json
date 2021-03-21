@@ -1,0 +1,22 @@
+[
+  {
+    "categoria": "blusas",
+    "id": "1111",
+    "nome": "Blusa Fúccia com gola branca em pedraria",
+    "descricao": "Blusa muito linda e diferenciada com pedraria na gola",
+    "avatar_url":
+      "https://arteemfios.com/wp-content/uploads/2018/06/DSC_9917.jpg",
+    "linkSite": "https://arteemfios.com/produto/valentines-day-special-mug/"
+  },
+  {
+    "categoria": "blusas",
+    "id": "1112",
+    "nome": "Blusa Cetim Gloss com estampa Love",
+    "descricao":
+      "Linda blusa em cetim gloss, com estampas de corações",
+    "avatar_url":
+      "https://arteemfios.com/wp-content/uploads/2018/06/DSC_9777-scaled-2.jpg",
+    "linkSite": "https://arteemfios.com/produto/fathers-day-coffee-mug/"
+  }
+
+]

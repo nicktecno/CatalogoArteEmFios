@@ -1,0 +1,21 @@
+[
+  {
+    "categoria": "vestidos",
+    "id": "1111",
+    "nome": "Vestido Delicadeza",
+    "descricao": "Vestido com estampa delicadas e faixa de cetim na cintura !",
+    "avatar_url":
+      "https://arteemfios.com/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-16-at-18.39.50.jpeg",
+    "linkSite": "https://arteemfios.com/produto/vestido-delicadeza/"
+  },
+  {
+    "categoria": "vestidos",
+    "id": "1112",
+    "nome": "Vestido Pérola",
+    "descricao":
+      "Vestido branco com tule em pérolas, forrado, midi e decote canoa",
+    "avatar_url":
+      "https://arteemfios.com/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-15-at-11.03.31-1.jpeg",
+    "linkSite": "https://arteemfios.com/produto/vestido-perola/"
+  }
+  ]

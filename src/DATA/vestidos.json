@@ -1,0 +1,71 @@
+[
+  {
+    "categoria": "vestidos",
+    "id": "1111",
+    "nome": "Vestido Delicadeza",
+    "descricao": "Vestido com estampa delicadas e faixa de cetim na cintura !",
+    "avatar_url":
+      "https://arteemfios.com/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-16-at-18.39.50.jpeg",
+    "linkSite": "https://arteemfios.com/produto/vestido-delicadeza/"
+  },
+  {
+    "categoria": "vestidos",
+    "id": "1112",
+    "nome": "Vestido Pérola",
+    "descricao":
+      "Vestido branco com tule em pérolas, forrado, midi e decote canoa",
+    "avatar_url":
+      "https://arteemfios.com/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-15-at-11.03.31-1.jpeg",
+    "linkSite": "https://arteemfios.com/produto/vestido-perola/"
+  },
+  {
+  "categoria": "vestidos",
+    "id": "1113",
+    "nome": "Vestido Branco Floquinho",
+    "descricao":
+      "Vestido forrado branco, modelo romântico",
+    "avatar_url":
+      "https://arteemfios.com/wp-content/uploads/2020/11/WhatsApp-Image-2020-11-13-at-16.20.28-2-e1605295762882.jpeg",
+    "linkSite": "https://arteemfios.com/produto/vestido-branco-floquinho/"
+  },
+  {
+    "categoria": "vestidos",
+    "id": "1114",
+    "nome": "Vestido Vintage",
+    "descricao":
+      "Vestido em tricoline preta na bluga e na saia de tecido de linho com pregas",
+    "avatar_url":
+      "https://arteemfios.com/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-12-at-10.42.57-e1602511378774.jpeg",
+    "linkSite": "https://arteemfios.com/produto/vestido-vintage/"
+  },
+  {
+    "categoria": "vestidos",
+    "id": "1115",
+    "nome": "Vestido Poá Azul",
+    "descricao":
+      "Vestido leve em tecido viscose com saia três marias, caimento leve que vai bem com todas as ocasiões",
+    "avatar_url":
+      "https://arteemfios.com/wp-content/uploads/2021/01/WhatsApp-Image-2021-01-10-at-15.07.16-e1610302631314.jpeg",
+    "linkSite": "https://arteemfios.com/produto/vestido-azul-poa/"
+  },
+  {
+    "categoria": "vestidos",
+    "id": "1116",
+    "nome": "Vestido Poá Verde",
+    "descricao":
+      "Vestido leve em tecido viscose com saia três marias, caimento leve que vai bem com todas as ocasiões",
+    "avatar_url":
+      "https://arteemfios.com/wp-content/uploads/2021/01/WhatsApp-Image-2021-01-10-at-15.17.56-e1610303028483.jpeg",
+    "linkSite": "https://arteemfios.com/produto/vestido-verde-poa/"
+  },
+  {
+    "categoria": "vestidos",
+    "id": "1117",
+    "nome": "Vestido Violeta",
+    "descricao":
+      "Vestido com decote coração manguá princesa, evasê com babado na barra",
+    "avatar_url":
+      "https://arteemfios.com/wp-content/uploads/2021/01/WhatsApp-Image-2021-01-01-at-14.02.33-e1609521438983.jpeg",
+    "linkSite": "https://arteemfios.com/produto/vestido-violeta/"
+  }
+]

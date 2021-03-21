@@ -1,26 +1,20 @@
 /* eslint-disable camelcase */
-import Icon from 'react-native-vector-icons/Feather';
+
 import { useNavigation } from '@react-navigation/native';
 import React, { useCallback, useEffect, useState } from 'react';
-import { useAuth } from '../../hooks/AuthContext';
-import api from '../../services/api';
 
 import {
   Container,
-  Header,
-  HeaderTitulo,
-  UserName,
-  ProfileButton,
-  UserAvatar,
-  ProvidersList,
-  ProvidersListTitle,
-  ProviderContainer,
-  ProviderAvatar,
-  ProviderInfo,
-  ProviderName,
-  ProviderMeta,
-  ProviderMetaText,
+  ImagemTopo,
+  BaseBranca,
+  LogoImg,
+  TitleText,
+  SubText,
+  Button,
+  ButtonText,
 } from './styles';
+import blusaFuccia from '../../assets/blusa-gola-fuccia.jpg';
+import logoImg from '../../assets/logo.png';
 
 export interface Provider {
   id: string;
@@ -31,65 +25,26 @@ export interface Provider {
 const Dashboard: React.FC = () => {
   const [providers, setProviders] = useState<Provider[]>([]);
 
-  const { usuario } = useAuth();
   const { navigate } = useNavigation();
 
-  useEffect(() => {
-    api.get('providers').then((response) => {
-      setProviders(response.data);
-    });
-  }, [setProviders]);
-
-  const navigateToProfile = useCallback(() => {
-    navigate('Profile');
+  const navigateToCatalago = useCallback(() => {
+    navigate('Catalogo');
   }, [navigate]);
-
-  const navigateToCreateAppointment = useCallback(
-    (providerId: string) => {
-      navigate('CreateAppointment', { providerId });
-    },
-    [navigate],
-  );
 
   return (
     <Container>
-      <Header>
-        <HeaderTitulo>
-          Bem Vindo, {'\n'}
-          <UserName>{usuario.nome}</UserName>
-        </HeaderTitulo>
-
-        <ProfileButton onPress={navigateToProfile}>
-          <UserAvatar source={{ uri: usuario.avatar_url }} />
-        </ProfileButton>
-      </Header>
-
-      <ProvidersList
-        data={providers}
-        keyExtractor={(provider) => provider.id}
-        ListHeaderComponent={
-          <ProvidersListTitle>Cabeleireiros</ProvidersListTitle>
-        }
-        renderItem={({ item: provider }) => (
-          <ProviderContainer
-            onPress={() => navigateToCreateAppointment(provider.id)}
-          >
-            <ProviderAvatar source={{ uri: provider.avatar_url }} />
-            <ProviderInfo>
-              <ProviderName>{provider.nome}</ProviderName>
-
-              <ProviderMeta>
-                <Icon name="calendar" size={14} color="#ff9000" />
-                <ProviderMetaText>Segunda à sexta</ProviderMetaText>
-              </ProviderMeta>
-              <ProviderMeta>
-                <Icon name="clock" size={14} color="#ff9000" />
-                <ProviderMetaText>8h às 18h</ProviderMetaText>
-              </ProviderMeta>
-            </ProviderInfo>
-          </ProviderContainer>
-        )}
-      />
+      <ImagemTopo source={blusaFuccia} />
+      <BaseBranca>
+        <LogoImg source={logoImg} />
+        <TitleText>Catálogo da Arte em Fios</TitleText>
+        <SubText>
+          Aqui você poderá conhecer as variedades de roupas exclusivas da nossa
+          grife e escolher qual será sua opção de compra no site
+        </SubText>
+        <Button onPress={navigateToCatalago}>
+          <ButtonText>INICIAR</ButtonText>
+        </Button>
+      </BaseBranca>
     </Container>
   );
 };

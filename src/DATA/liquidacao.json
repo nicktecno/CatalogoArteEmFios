@@ -1,0 +1,41 @@
+[
+  {
+  "categoria": "vestidos",
+    "id": "1111",
+    "nome": "Vestido Branco Floquinho",
+    "descricao":
+      "Vestido forrado branco, modelo romântico",
+    "avatar_url":
+      "https://arteemfios.com/wp-content/uploads/2020/11/WhatsApp-Image-2020-11-13-at-16.20.28-2-e1605295762882.jpeg",
+    "linkSite": "https://arteemfios.com/produto/vestido-branco-floquinho/"
+  },
+  {
+    "categoria": "vestidos",
+    "id": "1112",
+    "nome": "Vestido Vintage",
+    "descricao":
+      "Vestido em tricoline preta na bluga e na saia de tecido de linho com pregas",
+    "avatar_url":
+      "https://arteemfios.com/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-12-at-10.42.57-e1602511378774.jpeg",
+    "linkSite": "https://arteemfios.com/produto/vestido-vintage/"
+  },
+  {
+    "categoria": "conjuntos",
+    "id": "1113",
+    "nome": "Conjunto Azul",
+    "descricao": "Conjunto azul, blusa com detalhes em lastex, ombro a ombro. Saia em viscose com estampa na barra",
+    "avatar_url":
+      "https://arteemfios.com/wp-content/uploads/2020/12/WhatsApp-Image-2020-12-08-at-17.17.38-e1607620548265.jpeg",
+    "linkSite": "https://arteemfios.com/produto/conjunto-azul/"
+  },
+  {
+    "categoria": "blusas",
+    "id": "1114",
+    "nome": "Blusa Fúccia com gola branca em pedraria",
+    "descricao": "Blusa muito linda e diferenciada com pedraria na gola",
+    "avatar_url":
+      "https://arteemfios.com/wp-content/uploads/2018/06/DSC_9917.jpg",
+    "linkSite": "https://arteemfios.com/produto/valentines-day-special-mug/"
+  }
+
+]
